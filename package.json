@@ -1,6 +1,7 @@
 {
-  "name": "nexus-metrics-app",
-  "version": "0.1.0",
+  "name": "nexusmetrics",
+  "version": "1.0.0",
+  "description": "Production-style cloud infrastructure monitoring dashboard for developer operations and DevOps teams.",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,9 +10,14 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "clsx": "^2.1.1",
+    "framer-motion": "^14.0.0",
+    "lucide-react": "^1.52.0",
     "next": "16.3.8",
     "react": "19.2.8",
-    "react-dom": "19.2.8"
+    "react-dom": "19.2.8",
+    "recharts": "^3.10.1",
+    "tailwind-merge": "^3.7.0"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
